@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Li Fan</title>
+  <meta name="description" content="particles.js is a lightweight JavaScript library for creating particles.">
+  <meta name="author" content="Vincent Garreau" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <link rel="stylesheet" media="screen" href="css/style.css">
+   <link rel='stylesheet' href='//cdn.jsdelivr.net/npm/hack-font@3.3.0/build/web/hack.css'>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
+
+</head>
+<body>
+
+
+
+<!-- particles.js container -->
+<div id="particles-js">
+<div class="header">
+  <h1>
+    <p class="name">Li Fan (Ally)</p>  
+    <p class="descrip"><i> CS Student @ USC</i></p>
+    <a class="email" href="mailto: lifan@usc.edu">lifan@usc.edu</a>
+  
+  </h1>
+  <div class ="header-icons">
+   <a class = "icon" href="https://github.com/fanli912" >   <i class="fa fa-github-square fa-3x"></i></a>
+   <a class = "icon" href="linkedin.com/in/li-fan912">    <i class="fa fa-linkedin-square fa-3x"></i></a>
+<a class = "icon" href="https://www.facebook.com/profile.php?id=100007025507509"> <i class="fa fa-facebook-square fa-3x"></i></a>
+     
+    
+  </div>
+  <br>
+  <div class="header-links">
+    <a class = "link" href="#about" data-scroll>About</a>
+    <a class = "link" href="#work" data-scroll>Experience</a>
+    <a class = "link" href="#portfolio" data-scroll>Portfolio</a>
+    <a class = "link" href="#personal" data-scroll>Personal</a>
+
+  
+    
+  </div>
+  <div class="arrow bounce">
+  <a class="fa fa-arrow-down fa-2x icon" href="#about"></a>
+</div>
+</div>
+
+
+</div>
+
+  <section id="about">
+  <div class="aboutcontainer">
+     <h2 align="center"> About </h2><br>
+    <img align ="center" src="ava.jpg" alt="Avatar" class="avatar center"><br>
+    <div class="aboutcontent">
+    <p> Hi! I am Li Fan, a graduate student in Computer Science at USC. </p>
+    <p> My current interests lie in web development and iOS development. </p>
+    <p> I am aspiring to become a software enginner who can build apps that imporve human's well-being and make the world a better place. </p>
+    <p> Before joining USC, I completed my Bachlor's Degree in Mathematics and Statistcs at University College London (UCL) in United Kingdom. </p>
+    </div>
+  </div>  
+  </section>
+
+   <section id="work" style="background-color: green">
+      
+  </section>
+    <section id="portfolio">
+    
+    
+  </section>
+
+  <section id="personal">
+    
+    
+  </section>
+
+
+
+<!-- scripts -->
+<script src="https://use.fontawesome.com/745d3494d0.js"></script> 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="../particles.js"></script>
+<script src="js/app.js"></script>
+<script>   $(document).ready(function(){
+    
+    $('.scroll').click(function(event) {
+        event.preventDefault();
+ 
+        var full_url = this.href;
+        
+        var parts = full_url.split('#');
+        var trgt = parts[1];
+
+        var target_offset = $('#'+trgt).offset();
+        var target_top = target_offset.top;
+
+        $('html, body').animate({scrollTop:target_top}, 500);
+
+
+    });
+    
+    $('nav#main a').click(function(){
+         $('nav#main a').removeClass('active');
+         $(this).addClass('active');
+    });</script>
+ 
+<!-- stats.js -->
+
+
+
+</body>
+</html>
