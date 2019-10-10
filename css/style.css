@@ -22,7 +22,7 @@ html,body{
   color: white; 
   text-decoration: none; 
   font-size: 30px;
-  font-family: Hack, monospace;
+  font-family: 'Montserrat', sans-serif;
   margin: 10px;
 }
 .fa:hover {
@@ -85,11 +85,26 @@ canvas{
 }
 .aboutcontainer{
 
-  margin: 0 80px;
+  margin: 0 300px;
+
+}
+.personalcontainer{
+
+  margin: 0 300px;
+
+}
+.portfoliocontainer{
+
+  margin: 0 300px;
 
 }
 
-.aboutcontent {
+.aboutcontent  {
+  font-size: 20px;
+  font-family: Verdana;
+  color: #171A49;
+}
+.personalcontent  {
   font-size: 20px;
   font-family: Verdana;
   color: #171A49;
@@ -105,6 +120,7 @@ canvas{
 h2 {
   font-size: 50px;
   font-family: Verdana;
+  margin-top: 50px;
 
 }
 .center {
@@ -112,6 +128,9 @@ h2 {
   margin-left: auto;
   margin-right: auto;
 
+}
+.item {
+  padding-top:60 px; 
 }
 
 
