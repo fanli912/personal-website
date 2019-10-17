@@ -1,11 +1,11 @@
 html,body{
   margin:0;
-	width:100%;
-	height:100%;
-	background:white;
- /*font-family: Hack, monospace;*/
- 
- scroll-behavior: smooth;
+  width:100%;
+  height:100%;
+  background:white;
+  /*font-family: Hack, monospace;*/
+
+  scroll-behavior: smooth;
 }
 
 
@@ -16,8 +16,15 @@ html,body{
 .arrow {
   text-align: center;
   margin: 8% 0;
-  color: white;
+  color: #171A49;
 }
+
+.arrow-up {
+  text-align: center;
+  margin: 8% 0;
+  color: #171A49;
+}
+
 .link { 
   color: white; 
   text-decoration: none; 
@@ -126,6 +133,10 @@ h2 {
   margin-top: 50px;
 
 }
+h3 {
+  font-size: 20px;
+
+}
 .center {
   display: block;
   margin-left: auto;
@@ -140,7 +151,9 @@ h2 {
 section {
   min-height: 100%;
 }
-
+.footer {
+  margin-top: 160px;
+}
 /* ---- particles.js container ---- */
 
 #particles-js{
