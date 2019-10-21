@@ -90,10 +90,18 @@ canvas{
   transform: translate(-50%, -50%);
   color:white;
 }
-.aboutcontainer{
+.aboutText {
+  color: #171A49;
+  font-size: 22px;
 
-  margin: 0 300px;
-
+}
+.overview {
+  font-size: 18px;
+  color: #171A49;
+}
+.personalText {
+  font-size: 20px;
+  color: #171A49;
 }
 .project {
   padding-top: 30px;
